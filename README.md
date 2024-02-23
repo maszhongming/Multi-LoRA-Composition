@@ -1,37 +1,37 @@
-# Multi-LoRA Composition
+# Multi-LoRA Composition🌌
 Official repository for the paper
 *Multi-LoRA Composition for Image Generation*
 
-## Overview
+## 📜Overview
 
 Low-Rank Adaptation (LoRA) is extensively utilized in text-to-image models for the accurate rendition of specific elements like distinct characters or unique styles in generated images.
 
-In this project, we aim to integrate any number of elements in an image by composing multiple LoRAs, and propose two training-free methods to implement the composition, including LoRA Switch and LoRA Composite.
+Our project presents two training-free methods: **LoRA Switch** and **LoRA Composite** for integrating any number of elements in an image through multi-LoRA composition.
 
-The following figure compares the prevalent LoRA Merge method with our approaches.
+The figure below illustrates differences between the traditional LoRA Merge approach and our newly proposed techniques:
 
 <p align="center">
     <img src="images/intro_fig.png" width="100%" alt="intro_case">
 </p>
 
-## Preparation
+## 🚀Getting Started
 
-### Environment
-To get started, install the necessary packages:
-```
+### Setting Up the Environment
+To begin, set up your environment with the necessary packages:
+```bash
 conda create --name multi-lora python=3.10
 conda activate multi-lora
 pip install -r requirements.txt
 ```
 
-### Download Pre-trained LoRAs
-Our **ComposLoRA** benchmark collects 22 pre-trained LoRAs, including character, color, style, background and object. Please download and move `ComposLoRA.zip` to the `models` folder at [this link](https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing) and unzip it.
+### Downloading Pre-trained LoRAs
+Our **ComposLoRA** benchmark comprises 22 pre-trained LoRAs, spanning characters, colors, styles, backgrounds, and objects. Download `ComposLoRA.zip` from [this link](https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing), move it to the models folder, and unzip it.
 
-## Image Generation with Multi-LoRA Composition
+## 🎨Image Generation with Multi-LoRA Composition
 
-The following shows how multiple LoRAs can be composed in different methods during image generation.
+To compose multiple LoRAs using different methods during image generation, follow these steps:
 
-First load the base model for image generation:
+First, load the base model:
 
 ```python
 from diffusers import DiffusionPipeline
@@ -43,9 +43,9 @@ pipeline = DiffusionPipeline.from_pretrained(
     ).to("cuda")
 ```
 
-Here we select a model from huggingface to generate realistic style generation. Our custom pipeline adds an implementation of the LoRA composiste method to the standard stable diffusion pipeline.
+This model from Hugging Face is selected for realistic-style image generation. Additionally, our custom pipeline integrates the LoRA composiste method into the standard Stable Diffusion pipeline.
 
-Next we select a character LoRA and a clothing LoRA from ComposLoRA for composition.
+Next, choose a character LoRA and a clothing LoRA from ComposLoRA for composition:
 
 ```python
 # Load LoRAs
@@ -56,14 +56,14 @@ pipeline.load_lora_weights(lora_path, weight_name="clothing_2.safetensors", adap
 # List of LoRAs to be composed
 cur_loras = ["character", "clothing"]
 ```
+Select a composition method. "switch" and "composite" are our new proposals, offering alternatives to the traditional "merge" method:
 
-Then select a specific method for composing multiple LoRAs." merge" is the previous method, while "switch" and "composite" are our new proposed approaches.
 ```python
 from callbacks import make_callback
 
 method = 'switch'
 
-# Initialization based on the selected method
+# Initialize based on the selected composition method
 if method == "merge":
     pipeline.set_adapters(cur_loras)
     switch_callback = None
@@ -75,14 +75,15 @@ else:
     pipeline.set_adapters(cur_loras)
     switch_callback = None
 ```
-Finally, we set the prompt and generate the image.
+
+Finally, set your prompt and generate the image:.
 
 ```python
-# set the prompts for image generation
+# Set the prompts for image generation
 prompt = "RAW photo, subject, 8k uhd, dslr, high quality, Fujifilm XT3, half-length portrait from knees up, scarlett, short red hair, blue eyes, school uniform, white shirt, red tie, blue pleated microskirt"
 negative_prompt = "extra heads, nsfw, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
 
-# generate and save the image
+# Generate and save the image
 generator = torch.maunal_seed(11)
 image = pipeline(prompt=prompt, 
                  negative_prompt=negative_prompt,
@@ -98,12 +99,13 @@ image = pipeline(prompt=prompt,
 image.save('example.png')
 ```
 
-The full code is provided in example.py, and you can get the results of the different methods by modifying the following commands:
-```
+Refer to example.py for the full code, and adjust the following command to see results from different composition methods:
+
+```bash
 python example.py --method switch
 ```
 
-The images generated by the three composition methods are:
+Images generated by each of the three methods are showcased below:
 
 <p align="center">
   <img src="images/merge_example.png" alt="merge_example" width="25%" style="margin-right: 10px;">
@@ -111,9 +113,49 @@ The images generated by the three composition methods are:
   <img src="images/composite_example.png" alt="composite_example" width="25%">
 </p>
 
+## 🔬Experiments on ComposLoRA
 
+**ComposLoRA** features 22 LoRAs and 480 different composition sets, allowing for the generation of images with any composition of 2-5 LoRAs, including at least one character LoRA.
 
+### Image Generation
+To generate anime-style images incorporating 2 LoRAs using the switch method, use the following command:
 
+```bash
+export CUDA_VISIBLE_DEVICES=0
+
+python compose_lora.py \
+    --method composite \
+    --compos_num 2 \
+    --save_path output \
+    --lora_scale 0.8 \
+    --image_style anime \
+    --denoise_steps 200 \
+    --cfg_scale 10 \
+```
+
+Adjust the parameters in compos_reality.sh and compose_anime.sh for different compositions.
+
+### Evaluation
+
+For comparative evaluation on composition efficacy and image quality, we use GPT-4V. Set your OpenAI API key first:
+
+```bash
+export OPENAI_API_KEY='your_openai_api_key_here'
+```
+
+Then, compare the composite and merge methods with this command:
+
+```bash
+python evaluate.py \
+    --base_method merge \
+    --comp_method composite \
+    --compos_num 2 \
+    --image_style anime \
+    --image_path output \
+    --save_path eval_result \
+```
+
+Modify eval.sh for comparative evaluation under different conditions. Note the position bias of GPT-4V as mentioned in our paper, making it essential to input images in both orders and average the scores for a fair final assessment.
 
 
 

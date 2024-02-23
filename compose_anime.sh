@@ -1,7 +1,7 @@
-export CUDA_VISIBLE_DEVICES=3
+export CUDA_VISIBLE_DEVICES=0
 
 python compose_lora.py \
-    --method merge \
+    --method composite \
     --compos_num 2 \
     --save_path output \
     --lora_scale 0.8 \
