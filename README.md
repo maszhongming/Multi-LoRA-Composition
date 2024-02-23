@@ -135,7 +135,7 @@ python compose_lora.py \
 
 Adjust the parameters in `compos_reality.sh` and `compose_anime.sh` for different compositions.
 
-### Evaluation
+### Comparative Evaluation with GPT-4V
 
 For comparative evaluation on composition efficacy and image quality, we use GPT-4V. Set your OpenAI API key first:
 
