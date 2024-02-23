@@ -1,4 +1,4 @@
-# Multi-LoRA Composition <img src="images/icon.png" alt="title" width="6%">
+# Multi-LoRA Composition <img src="images/icon.png" alt="title" width="4%">
 Official repository for the paper
 *Multi-LoRA Composition for Image Generation*
 
