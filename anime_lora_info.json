@@ -1,0 +1,121 @@
+{
+    "character": [
+        {
+            "id": "character_1",
+            "name": "Kamado Nezuko",
+            "trigger": [
+                "kamado nezuko",
+                "black hair",
+                "pink eyes",
+                "forehead"
+            ],
+            "url": "https://civitai.com/models/20346/nezuko-demon-slayer-kimetsu-no-yaiba-lora?modelVersionId=24191"
+        },
+        {
+            "id": "character_2",
+            "name": "Texas the Omertosa in Arknights",
+            "trigger": [
+                "omertosa",
+                "1girl",
+                "wolf ears",
+                "long hair"
+            ],
+            "url": "https://civitai.com/models/6779/arknights-texas-the-omertosa?modelVersionId=7974"
+        },
+        {
+            "id": "character_3",
+            "name": "Son Goku",
+            "trigger": [
+                "son goku",
+                "spiked hair",
+                "muscular male",
+                "wristband"
+            ],
+            "url": "https://civitai.com/models/18279/son-goku-dragon-ball-all-series-lora?modelVersionId=21654"
+        }
+    ],
+    "clothing": [
+        {
+            "id": "clothing_1",
+            "name": "Garreg Mach Monastery Uniform",
+            "trigger": [
+                "gmuniform",
+                "blue thighhighs",
+                "long sleeves"
+            ],
+            "url": "https://civitai.com/models/151330/garreg-mach-monastery-uniform-fire-emblem-three-houses-lora-or-2-variants?modelVersionId=169217"
+        },
+        {
+            "id": "clothing_2",
+            "name": "Zero Suit (Metroid)",
+            "trigger": [
+                "zero suit",
+                "blue gloves",
+                "high heels"
+            ],
+            "url": "https://civitai.com/models/82304/zero-suit-metroid-outfit-lora?modelVersionId=87396"
+        }
+    ],
+    "style": [
+        {
+            "id": "style_1",
+            "name": "Hand-drawn Style",
+            "trigger": [
+                "lineart",
+                "hand-drawn style"
+            ],
+            "url": "https://civitai.com/models/143532/handdrawn"
+        },
+        {
+            "id": "style_2",
+            "name": "Shuimobysim (Chinese Ink Wash Style)",
+            "trigger": [
+                "shuimobysim",
+                "traditional chinese ink painting"
+            ],
+            "url": "https://civitai.com/models/12597?modelVersionId=14856"
+        }
+    ],
+    "background": [
+        {
+            "id": "background_1",
+            "name": "Bamboolight Background",
+            "trigger": [
+                "bamboolight",
+                "outdoors",
+                "bamboo"
+            ],
+            "url": "https://civitai.com/models/113381/lora-bamboolight-concept-with-dropout-and-noise-version?modelVersionId=122477"
+        },
+        {
+            "id": "background_2",
+            "name": "Auroral Background",
+            "trigger": [
+                "auroral",
+                "starry sky",
+                "outdoors"
+            ],
+            "url": "https://civitai.com/models/85026?modelVersionId=156828"
+        }
+    ],
+    "object": [
+        {
+            "id": "object_1",
+            "name": "Huge Two-Handed Burger",
+            "trigger": [
+                "two-handed burger",
+                "holding a huge burger with both hands"
+            ],
+            "url": "https://civitai.com/models/27858/huge-two-handed-burger-lora?modelVersionId=34071"
+        },
+        {
+            "id": "object_2",
+            "name": "Toast",
+            "trigger": [
+                "toast",
+                "toast in mouth"
+            ],
+            "url": "https://civitai.com/models/26945/toast-in-mouth-lora?modelVersionId=32252"
+        }
+    ]
+}

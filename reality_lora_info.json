@@ -1,0 +1,116 @@
+{
+    "character": [
+        {
+            "id": "character_1",
+            "name": "IU (Lee Ji Eun, Korean singer)",
+            "trigger": [
+                "iu1",
+                "long straight black hair",
+                "hazel eyes",
+                "diamond stud earrings"
+            ],
+            "url": "https://civitai.com/models/11722/iu?modelVersionId=18576"
+        },
+        {
+            "id": "character_2",
+            "name": "Scarlett Johansson",
+            "trigger": [
+                "scarlett",
+                "short red hair",
+                "blue eyes"
+            ],
+            "url": "https://civitai.com/models/7468/scarlett-johanssonlora"
+        },
+        {
+            "id": "character_3",
+            "name": "The Rock (Dwayne Johnson)",
+            "trigger": [
+                "th3r0ck with no hair",
+                "muscular male",
+                "serious look on his face"
+            ],
+            "url": "https://civitai.com/models/22345/dwayne-the-rock-johnsonlora?modelVersionId=26680"
+        }
+    ],
+    "clothing": [
+        {
+            "id": "clothing_1",
+            "name": "Thai University Uniform",
+            "trigger": [
+                "mahalaiuniform",
+                "white shirt short sleeves",
+                "black pencil skirt"
+            ],
+            "url": "https://civitai.com/models/12657/thai-university-uniform?modelVersionId=58690"
+        },
+        {
+            "id": "clothing_2",
+            "name": "School Dress",
+            "trigger": [
+                "school uniform",
+                "white shirt",
+                "red tie",
+                "blue pleated microskirt"
+            ],
+            "url": "https://civitai.com/models/201305?modelVersionId=291486"
+        }
+    ],
+    "style": [
+        {
+            "id": "style_1",
+            "name": "Japanese Film Color Style",
+            "trigger": [
+                "film overlay",
+                "film grain"
+            ],
+            "url": "https://civitai.com/models/90393/japan-vibes-film-color?modelVersionId=107032"
+        },
+        {
+            "id": "style_2",
+            "name": "Bright Style",
+            "trigger": [
+                "bright lighting"
+            ],
+            "url": "https://civitai.com/models/70034/brightness-tweaker-lora-lora"
+        }
+    ],
+    "background": [
+        {
+            "id": "background_1",
+            "name": "Library Bookshelf Background",
+            "trigger": [
+                "lib_bg",
+                "library bookshelf"
+            ],
+            "url": "https://civitai.com/models/113488/library-bookshelf?modelVersionId=125699"
+        },
+        {
+            "id": "background_2",
+            "name": "Forest Background",
+            "trigger": [
+                "slg",
+                "river",
+                "forest"
+            ],
+            "url": "https://civitai.com/models/104292/the-forest-light?modelVersionId=127699"
+        }
+    ],
+    "object": [
+        {
+            "id": "object_1",
+            "name": "Umbrella",
+            "trigger": [
+                "transparent umbrella"
+            ],
+            "url": "https://civitai.com/models/54218/umbrellalora?modelVersionId=58578"
+        },
+        {
+            "id": "object_2",
+            "name": "Bubble Gum",
+            "trigger": [
+                "blow bubble gum"
+            ],
+            "url": "https://civitai.com/models/97550/bubble-gum-kaugummi-v20?modelVersionId=117038"
+        }
+    ]
+}
