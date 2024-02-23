@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 ### Downloading Pre-trained LoRAs
-Our **ComposLoRA** benchmark comprises 22 pre-trained LoRAs, spanning characters, colors, styles, backgrounds, and objects. Download `ComposLoRA.zip` from [this link](https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing), move it to the models folder, and unzip it.
+Our **ComposLoRA** benchmark comprises 22 pre-trained LoRAs, spanning characters, colors, styles, backgrounds, and objects. Download `ComposLoRA.zip` from [this link](https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing), move it to the `models` folder, and unzip it.
 
 ## 🎨Image Generation with Multi-LoRA Composition
 
@@ -37,10 +37,10 @@ First, load the base model:
 from diffusers import DiffusionPipeline
 
 pipeline = DiffusionPipeline.from_pretrained(
-        'SG161222/Realistic_Vision_V5.1_noVAE',
-        custom_pipeline="MingZhong/StableDiffusionPipeline-with-LoRA-C",
-        use_safetensors=True
-    ).to("cuda")
+                'SG161222/Realistic_Vision_V5.1_noVAE',
+                custom_pipeline="MingZhong/StableDiffusionPipeline-with-LoRA-C",
+                use_safetensors=True
+            ).to("cuda")
 ```
 
 This model from Hugging Face is selected for realistic-style image generation. Additionally, our custom pipeline integrates the LoRA composiste method into the standard Stable Diffusion pipeline.
@@ -99,7 +99,7 @@ image = pipeline(prompt=prompt,
 image.save('example.png')
 ```
 
-Refer to example.py for the full code, and adjust the following command to see results from different composition methods:
+Refer to `example.py` for the full code, and adjust the following command to see results from different composition methods:
 
 ```bash
 python example.py --method switch
@@ -133,7 +133,7 @@ python compose_lora.py \
     --cfg_scale 10 \
 ```
 
-Adjust the parameters in compos_reality.sh and compose_anime.sh for different compositions.
+Adjust the parameters in `compos_reality.sh` and `compose_anime.sh` for different compositions.
 
 ### Evaluation
 
@@ -155,7 +155,7 @@ python evaluate.py \
     --save_path eval_result \
 ```
 
-Modify eval.sh for comparative evaluation under different conditions. Note the position bias of GPT-4V as mentioned in our paper, making it essential to input images in both orders and average the scores for a fair final assessment.
+Modify `eval.sh` for comparative evaluation under different conditions. Note the position bias of GPT-4V as mentioned in our paper, making it essential to input images in both orders and average the scores for a fair final assessment.
 
 
 
