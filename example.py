@@ -47,23 +47,23 @@ def main(args):
         switch_callback = None
     elif args.method == "switch":
         pipeline.set_adapters([cur_loras[0]])
-        switch_callback = make_callback(switch_step=args.switch_step, 
-                                        loras=cur_loras)
+        switch_callback = make_callback(switch_step=args.switch_step, loras=cur_loras)
     else:
         pipeline.set_adapters(cur_loras)
         switch_callback = None
 
-    image = pipeline(prompt=prompt, 
-                     negative_prompt=negative_prompt,
-                     height=args.height,
-                     width=args.width,
-                     num_inference_steps=args.denoise_steps,
-                     guidance_scale=args.cfg_scale,
-                     generator=args.generator,
-                     cross_attention_kwargs={"scale": args.lora_scale},
-                     callback_on_step_end=switch_callback,
-                     lora_composite=True if args.method == "composite" else False
-            ).images[0]
+    image = pipeline(
+        prompt=prompt, 
+        negative_prompt=negative_prompt,
+        height=args.height,
+        width=args.width,
+        num_inference_steps=args.denoise_steps,
+        guidance_scale=args.cfg_scale,
+        generator=args.generator,
+        cross_attention_kwargs={"scale": args.lora_scale},
+        callback_on_step_end=switch_callback,
+        lora_composite=True if args.method == "composite" else False
+    ).images[0]
 
     image.save(args.save_path)
 

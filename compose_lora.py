@@ -48,9 +48,11 @@ def main(args):
     # initialize LoRAs
     for element in list(lora_info.keys()):
         for lora in lora_info[element]:
-            pipeline.load_lora_weights(args.lora_path,
-                                       weight_name=lora['id'] + '.safetensors',
-                                       adapter_name=lora['id'])
+            pipeline.load_lora_weights(
+                args.lora_path,
+                weight_name=lora['id'] + '.safetensors',
+                adapter_name=lora['id']
+            )
 
     # generate all combinations that can be composed
     combinations = generate_combinations(lora_info, args.compos_num)
@@ -79,17 +81,18 @@ def main(args):
             switch_callback = None
 
         # generate images
-        image = pipeline(prompt=prompt, 
-                         negative_prompt=negative_prompt,
-                         height=args.height,
-                         width=args.width,
-                         num_inference_steps=args.denoise_steps,
-                         guidance_scale=args.cfg_scale,
-                         generator=args.generator,
-                         cross_attention_kwargs={"scale": args.lora_scale},
-                         callback_on_step_end=switch_callback,
-                         lora_composite=True if args.method == "composite" else False
-                ).images[0]
+        image = pipeline(
+            prompt=prompt, 
+            negative_prompt=negative_prompt,
+            height=args.height,
+            width=args.width,
+            num_inference_steps=args.denoise_steps,
+            guidance_scale=args.cfg_scale,
+            generator=args.generator,
+            cross_attention_kwargs={"scale": args.lora_scale},
+            callback_on_step_end=switch_callback,
+            lora_composite=True if args.method == "composite" else False
+        ).images[0]
         
         # save image
         save_path = join(args.save_path, f'{args.compos_num}_elements')

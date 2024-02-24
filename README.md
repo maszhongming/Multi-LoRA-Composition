@@ -1,4 +1,4 @@
-# <img src="images/tangram.png" alt="title" width="5%"> Multi-LoRA Composition
+# <img src="images/tangram.png" alt="title" width="4%"> Multi-LoRA Composition
 Official repository for the paper
 *Multi-LoRA Composition for Image Generation*
 
