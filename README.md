@@ -1,4 +1,4 @@
-# <img src="images/icon.png" alt="title" width="5%"> Multi-LoRA Composition
+# <img src="images/tangram.png" alt="title" width="5%"> Multi-LoRA Composition
 Official repository for the paper
 *Multi-LoRA Composition for Image Generation*
 
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 ### Downloading Pre-trained LoRAs
-Our **ComposLoRA** testbed comprises 22 pre-trained LoRAs, spanning characters, colors, styles, backgrounds, and objects. Download `ComposLoRA.zip` from [this link](https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing), move it to the `models` folder, and unzip it.
+Our **ComposLoRA** testbed collects 22 pre-trained LoRAs, spanning characters, clothing, styles, backgrounds, and objects. Download `ComposLoRA.zip` from [this link](https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing), put it in the `models` folder, and unzip it.
 
 ## 🖼️ Image Generation with Multi-LoRA Composition
 
@@ -37,13 +37,13 @@ First, load the base model:
 from diffusers import DiffusionPipeline
 
 pipeline = DiffusionPipeline.from_pretrained(
-                'SG161222/Realistic_Vision_V5.1_noVAE',
-                custom_pipeline="MingZhong/StableDiffusionPipeline-with-LoRA-C",
-                use_safetensors=True
-            ).to("cuda")
+    'SG161222/Realistic_Vision_V5.1_noVAE',
+    custom_pipeline="MingZhong/StableDiffusionPipeline-with-LoRA-C",
+    use_safetensors=True
+).to("cuda")
 ```
 
-This model from Hugging Face is selected for realistic-style image generation. Additionally, our custom pipeline integrates the LoRA composiste method into the standard Stable Diffusion pipeline.
+This model from Hugging Face is selected for realistic-style image generation. Additionally, our custom pipeline integrates the LoRA composite method into the standard Stable Diffusion pipeline.
 
 Next, choose a character LoRA and a clothing LoRA from ComposLoRA for composition:
 
@@ -69,8 +69,7 @@ if method == "merge":
     switch_callback = None
 elif method == "switch":
     pipeline.set_adapters([cur_loras[0]])
-    switch_callback = make_callback(switch_step=args.switch_step, 
-                                    loras=cur_loras)
+    switch_callback = make_callback(switch_step=args.switch_step, loras=cur_loras)
 else:
     pipeline.set_adapters(cur_loras)
     switch_callback = None
@@ -85,17 +84,18 @@ negative_prompt = "extra heads, nsfw, deformed iris, deformed pupils, semi-reali
 
 # Generate and save the image
 generator = torch.maunal_seed(11)
-image = pipeline(prompt=prompt, 
-                 negative_prompt=negative_prompt,
-                 height=1024,
-                 width=768,
-                 num_inference_steps=100,
-                 guidance_scale=7,
-                 generator=generator,
-                 cross_attention_kwargs={"scale": 0.8},
-                 callback_on_step_end=switch_callback,
-                 lora_composite=True if method == "composite" else False
-            ).images[0]
+image = pipeline(
+    prompt=prompt, 
+    negative_prompt=negative_prompt,
+    height=1024,
+    width=768,
+    num_inference_steps=100,
+    guidance_scale=7,
+    generator=generator,
+    cross_attention_kwargs={"scale": 0.8},
+    callback_on_step_end=switch_callback,
+    lora_composite=True if method == "composite" else False
+).images[0]
 image.save('example.png')
 ```
 
