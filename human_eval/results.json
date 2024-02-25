@@ -1,0 +1,3695 @@
+[
+    {
+        "index": 1,
+        "path": "output_anime/2_elements/merge_character_1_style_2.png",
+        "method": "merge",
+        "number of elements": 2,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 34.57
+        },
+        "gpt4v": {
+            "composition": 7.75,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 2,
+        "path": "output_anime/2_elements/switch_character_1_style_2.png",
+        "method": "switch",
+        "number of elements": 2,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting"
+        ],
+        "human_1": {
+            "composition": 2.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 36.1757
+        },
+        "gpt4v": {
+            "composition": 6.0,
+            "image": 8.5
+        }
+    },
+    {
+        "index": 3,
+        "path": "output_anime/2_elements/composite_character_1_style_2.png",
+        "method": "composite",
+        "number of elements": 2,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 36.2511
+        },
+        "gpt4v": {
+            "composition": 8.75,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 4,
+        "path": "output_anime/4_elements/merge_character_2_clothing_1_style_2_background_1.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 3.0
+        },
+        "clipscore": {
+            "score": 34.0178
+        },
+        "gpt4v": {
+            "composition": 7.5,
+            "image": 8.875
+        }
+    },
+    {
+        "index": 5,
+        "path": "output_anime/4_elements/switch_character_2_clothing_1_style_2_background_1.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 33.3053
+        },
+        "gpt4v": {
+            "composition": 7.75,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 6,
+        "path": "output_anime/4_elements/composite_character_2_clothing_1_style_2_background_1.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 31.7461
+        },
+        "gpt4v": {
+            "composition": 8.25,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 7,
+        "path": "output_anime/5_elements/merge_character_3_clothing_1_style_1_background_1_object_1.png",
+        "method": "merge",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "5. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 1.0,
+            "image": 1.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 1.5,
+            "image": 1.0
+        },
+        "clipscore": {
+            "score": 38.0065
+        },
+        "gpt4v": {
+            "composition": 8.0,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 8,
+        "path": "output_anime/5_elements/switch_character_3_clothing_1_style_1_background_1_object_1.png",
+        "method": "switch",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "5. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "clipscore": {
+            "score": 40.1243
+        },
+        "gpt4v": {
+            "composition": 8.75,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 9,
+        "path": "output_anime/5_elements/composite_character_3_clothing_1_style_1_background_1_object_1.png",
+        "method": "composite",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "5. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 39.4737
+        },
+        "gpt4v": {
+            "composition": 8.0,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 10,
+        "path": "output_anime/3_elements/merge_character_3_clothing_2_background_2.png",
+        "method": "merge",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 2.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 2.5
+        },
+        "clipscore": {
+            "score": 37.5053
+        },
+        "gpt4v": {
+            "composition": 8.625,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 11,
+        "path": "output_anime/3_elements/switch_character_3_clothing_2_background_2.png",
+        "method": "switch",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 35.5424
+        },
+        "gpt4v": {
+            "composition": 7.5,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 12,
+        "path": "output_anime/3_elements/composite_character_3_clothing_2_background_2.png",
+        "method": "composite",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 38.1935
+        },
+        "gpt4v": {
+            "composition": 9.75,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 13,
+        "path": "output_anime/5_elements/merge_character_3_clothing_1_style_1_background_2_object_2.png",
+        "method": "merge",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Auroral Background): auroral, starry sky, outdoors",
+            "5. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 33.5435
+        },
+        "gpt4v": {
+            "composition": 6.5,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 14,
+        "path": "output_anime/5_elements/switch_character_3_clothing_1_style_1_background_2_object_2.png",
+        "method": "switch",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Auroral Background): auroral, starry sky, outdoors",
+            "5. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 36.0033
+        },
+        "gpt4v": {
+            "composition": 7.75,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 15,
+        "path": "output_anime/5_elements/composite_character_3_clothing_1_style_1_background_2_object_2.png",
+        "method": "composite",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Auroral Background): auroral, starry sky, outdoors",
+            "5. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 32.1798
+        },
+        "gpt4v": {
+            "composition": 8.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 16,
+        "path": "output_anime/5_elements/merge_character_2_clothing_2_style_1_background_1_object_1.png",
+        "method": "merge",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "5. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 2.0,
+            "image": 2.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 2.5
+        },
+        "clipscore": {
+            "score": 29.6089
+        },
+        "gpt4v": {
+            "composition": 7.5,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 17,
+        "path": "output_anime/5_elements/switch_character_2_clothing_2_style_1_background_1_object_1.png",
+        "method": "switch",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "5. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 34.6888
+        },
+        "gpt4v": {
+            "composition": 9.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 18,
+        "path": "output_anime/5_elements/composite_character_2_clothing_2_style_1_background_1_object_1.png",
+        "method": "composite",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "5. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 29.4748
+        },
+        "gpt4v": {
+            "composition": 9.0,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 19,
+        "path": "output_anime/3_elements/merge_character_2_clothing_2_background_2.png",
+        "method": "merge",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 2.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 2.5
+        },
+        "clipscore": {
+            "score": 38.4343
+        },
+        "gpt4v": {
+            "composition": 8.625,
+            "image": 9.375
+        }
+    },
+    {
+        "index": 20,
+        "path": "output_anime/3_elements/switch_character_2_clothing_2_background_2.png",
+        "method": "switch",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 36.5482
+        },
+        "gpt4v": {
+            "composition": 8.25,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 21,
+        "path": "output_anime/3_elements/composite_character_2_clothing_2_background_2.png",
+        "method": "composite",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 35.3934
+        },
+        "gpt4v": {
+            "composition": 8.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 22,
+        "path": "output_anime/4_elements/merge_character_1_clothing_2_background_2_object_2.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors",
+            "4. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "clipscore": {
+            "score": 40.0848
+        },
+        "gpt4v": {
+            "composition": 8.125,
+            "image": 9.875
+        }
+    },
+    {
+        "index": 23,
+        "path": "output_anime/4_elements/switch_character_1_clothing_2_background_2_object_2.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors",
+            "4. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 36.855
+        },
+        "gpt4v": {
+            "composition": 7.75,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 24,
+        "path": "output_anime/4_elements/composite_character_1_clothing_2_background_2_object_2.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors",
+            "4. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 36.9936
+        },
+        "gpt4v": {
+            "composition": 6.5,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 25,
+        "path": "output_anime/4_elements/merge_character_1_clothing_2_background_2_object_1.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 1.0,
+            "image": 1.0
+        },
+        "human_2": {
+            "composition": 1.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 1.0,
+            "image": 1.0
+        },
+        "clipscore": {
+            "score": 36.696
+        },
+        "gpt4v": {
+            "composition": 7.5,
+            "image": 8.625
+        }
+    },
+    {
+        "index": 26,
+        "path": "output_anime/4_elements/switch_character_1_clothing_2_background_2_object_1.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 43.1276
+        },
+        "gpt4v": {
+            "composition": 8.25,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 27,
+        "path": "output_anime/4_elements/composite_character_1_clothing_2_background_2_object_1.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Auroral Background): auroral, starry sky, outdoors",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 42.7789
+        },
+        "gpt4v": {
+            "composition": 7.25,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 28,
+        "path": "output_anime/4_elements/merge_character_2_clothing_2_style_2_object_1.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 2.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 2.0,
+            "image": 2.0
+        },
+        "clipscore": {
+            "score": 30.5346
+        },
+        "gpt4v": {
+            "composition": 4.25,
+            "image": 9.125
+        }
+    },
+    {
+        "index": 29,
+        "path": "output_anime/4_elements/switch_character_2_clothing_2_style_2_object_1.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 36.1002
+        },
+        "gpt4v": {
+            "composition": 4.25,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 30,
+        "path": "output_anime/4_elements/composite_character_2_clothing_2_style_2_object_1.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 34.4661
+        },
+        "gpt4v": {
+            "composition": 5.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 31,
+        "path": "output_anime/3_elements/merge_character_3_style_2_object_1.png",
+        "method": "merge",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "3. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 2.0
+        },
+        "clipscore": {
+            "score": 35.0985
+        },
+        "gpt4v": {
+            "composition": 7.75,
+            "image": 8.875
+        }
+    },
+    {
+        "index": 32,
+        "path": "output_anime/3_elements/switch_character_3_style_2_object_1.png",
+        "method": "switch",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "3. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 34.5847
+        },
+        "gpt4v": {
+            "composition": 5.0,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 33,
+        "path": "output_anime/3_elements/composite_character_3_style_2_object_1.png",
+        "method": "composite",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "3. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 38.6079
+        },
+        "gpt4v": {
+            "composition": 6.75,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 34,
+        "path": "output_anime/4_elements/merge_character_1_clothing_1_style_2_background_2.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. background (Auroral Background): auroral, starry sky, outdoors"
+        ],
+        "human_1": {
+            "composition": 1.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 2.0
+        },
+        "avg_human_score": {
+            "composition": 1.5,
+            "image": 2.5
+        },
+        "clipscore": {
+            "score": 33.2259
+        },
+        "gpt4v": {
+            "composition": 4.375,
+            "image": 8.25
+        }
+    },
+    {
+        "index": 35,
+        "path": "output_anime/4_elements/switch_character_1_clothing_1_style_2_background_2.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. background (Auroral Background): auroral, starry sky, outdoors"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 37.2583
+        },
+        "gpt4v": {
+            "composition": 7.75,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 36,
+        "path": "output_anime/4_elements/composite_character_1_clothing_1_style_2_background_2.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. background (Auroral Background): auroral, starry sky, outdoors"
+        ],
+        "human_1": {
+            "composition": 2.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 34.5118
+        },
+        "gpt4v": {
+            "composition": 5.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 37,
+        "path": "output_anime/4_elements/merge_character_3_clothing_2_background_1_object_1.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 2.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 2.0,
+            "image": 2.5
+        },
+        "clipscore": {
+            "score": 34.9788
+        },
+        "gpt4v": {
+            "composition": 6.0,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 38,
+        "path": "output_anime/4_elements/switch_character_3_clothing_2_background_1_object_1.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 2.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "clipscore": {
+            "score": 34.8866
+        },
+        "gpt4v": {
+            "composition": 5.5,
+            "image": 8.5
+        }
+    },
+    {
+        "index": 39,
+        "path": "output_anime/4_elements/composite_character_3_clothing_2_background_1_object_1.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 2.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 36.994
+        },
+        "gpt4v": {
+            "composition": 7.25,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 40,
+        "path": "output_anime/4_elements/merge_character_1_clothing_1_style_2_object_1.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 1.0,
+            "image": 2.0
+        },
+        "human_2": {
+            "composition": 1.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 1.0,
+            "image": 1.5
+        },
+        "clipscore": {
+            "score": 29.6
+        },
+        "gpt4v": {
+            "composition": 4.875,
+            "image": 9.125
+        }
+    },
+    {
+        "index": 41,
+        "path": "output_anime/4_elements/switch_character_1_clothing_1_style_2_object_1.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 38.3351
+        },
+        "gpt4v": {
+            "composition": 6.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 42,
+        "path": "output_anime/4_elements/composite_character_1_clothing_1_style_2_object_1.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Garreg Mach Monastery Uniform): gmuniform, blue thighhighs, long sleeves",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 38.7396
+        },
+        "gpt4v": {
+            "composition": 6.0,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 43,
+        "path": "output_anime/4_elements/merge_character_3_clothing_2_style_1_object_2.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 33.0407
+        },
+        "gpt4v": {
+            "composition": 8.25,
+            "image": 9.125
+        }
+    },
+    {
+        "index": 44,
+        "path": "output_anime/4_elements/switch_character_3_clothing_2_style_1_object_2.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 32.3786
+        },
+        "gpt4v": {
+            "composition": 6.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 45,
+        "path": "output_anime/4_elements/composite_character_3_clothing_2_style_1_object_2.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 32.9488
+        },
+        "gpt4v": {
+            "composition": 7.0,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 46,
+        "path": "output_anime/5_elements/merge_character_3_clothing_2_style_1_background_1_object_2.png",
+        "method": "merge",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "5. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 2.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 2.0
+        },
+        "avg_human_score": {
+            "composition": 2.0,
+            "image": 3.0
+        },
+        "clipscore": {
+            "score": 36.2348
+        },
+        "gpt4v": {
+            "composition": 7.125,
+            "image": 8.75
+        }
+    },
+    {
+        "index": 47,
+        "path": "output_anime/5_elements/switch_character_3_clothing_2_style_1_background_1_object_2.png",
+        "method": "switch",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "5. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 2.0
+        },
+        "clipscore": {
+            "score": 34.9156
+        },
+        "gpt4v": {
+            "composition": 5.5,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 48,
+        "path": "output_anime/5_elements/composite_character_3_clothing_2_style_1_background_1_object_2.png",
+        "method": "composite",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Son Goku): son goku, spiked hair, muscular male, wristband",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "5. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 33.1048
+        },
+        "gpt4v": {
+            "composition": 6.25,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 49,
+        "path": "output_anime/4_elements/merge_character_1_style_2_background_1_object_2.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "3. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "4. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "clipscore": {
+            "score": 36.6768
+        },
+        "gpt4v": {
+            "composition": 8.25,
+            "image": 9.625
+        }
+    },
+    {
+        "index": 50,
+        "path": "output_anime/4_elements/switch_character_1_style_2_background_1_object_2.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "3. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "4. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 40.792
+        },
+        "gpt4v": {
+            "composition": 9.75,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 51,
+        "path": "output_anime/4_elements/composite_character_1_style_2_background_1_object_2.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "3. background (Bamboolight Background): bamboolight, outdoors, bamboo",
+            "4. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 38.5719
+        },
+        "gpt4v": {
+            "composition": 8.75,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 52,
+        "path": "output_anime/5_elements/merge_character_2_clothing_2_style_2_background_2_object_2.png",
+        "method": "merge",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. background (Auroral Background): auroral, starry sky, outdoors",
+            "5. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 2.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 2.0,
+            "image": 2.0
+        },
+        "clipscore": {
+            "score": 29.867
+        },
+        "gpt4v": {
+            "composition": 4.375,
+            "image": 9.375
+        }
+    },
+    {
+        "index": 53,
+        "path": "output_anime/5_elements/switch_character_2_clothing_2_style_2_background_2_object_2.png",
+        "method": "switch",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. background (Auroral Background): auroral, starry sky, outdoors",
+            "5. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 34.3121
+        },
+        "gpt4v": {
+            "composition": 6.0,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 54,
+        "path": "output_anime/5_elements/composite_character_2_clothing_2_style_2_background_2_object_2.png",
+        "method": "composite",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. background (Auroral Background): auroral, starry sky, outdoors",
+            "5. object (Toast): toast, toast in mouth"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 31.6278
+        },
+        "gpt4v": {
+            "composition": 5.75,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 55,
+        "path": "output_anime/4_elements/merge_character_1_clothing_2_style_2_object_1.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 2.0
+        },
+        "clipscore": {
+            "score": 40.51
+        },
+        "gpt4v": {
+            "composition": 6.75,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 56,
+        "path": "output_anime/4_elements/switch_character_1_clothing_2_style_2_object_1.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 2.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 37.5231
+        },
+        "gpt4v": {
+            "composition": 5.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 57,
+        "path": "output_anime/4_elements/composite_character_1_clothing_2_style_2_object_1.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Kamado Nezuko): kamado nezuko, black hair, pink eyes, forehead",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Shuimobysim (Chinese Ink Wash Style)): shuimobysim, traditional chinese ink painting",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 37.4707
+        },
+        "gpt4v": {
+            "composition": 6.0,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 58,
+        "path": "output_anime/4_elements/merge_character_2_clothing_2_style_1_object_1.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 2.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 3.0
+        },
+        "clipscore": {
+            "score": 30.7663
+        },
+        "gpt4v": {
+            "composition": 6.375,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 59,
+        "path": "output_anime/4_elements/switch_character_2_clothing_2_style_1_object_1.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 30.6962
+        },
+        "gpt4v": {
+            "composition": 6.75,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 60,
+        "path": "output_anime/4_elements/composite_character_2_clothing_2_style_1_object_1.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Texas the Omertosa in Arknights): omertosa, 1girl, wolf ears, long hair",
+            "2. clothing (Zero Suit (Metroid)): zero suit, blue gloves, high heels",
+            "3. style (Hand-drawn Style): lineart, hand-drawn style",
+            "4. object (Huge Two-Handed Burger): two-handed burger, holding a huge burger with both hands"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 36.6772
+        },
+        "gpt4v": {
+            "composition": 6.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 61,
+        "path": "output_reality/3_elements/merge_character_3_clothing_2_style_1.png",
+        "method": "merge",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Japanese Film Color Style): film overlay, film grain"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 31.7792
+        },
+        "gpt4v": {
+            "composition": 8.125,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 62,
+        "path": "output_reality/3_elements/switch_character_3_clothing_2_style_1.png",
+        "method": "switch",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Japanese Film Color Style): film overlay, film grain"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 34.0626
+        },
+        "gpt4v": {
+            "composition": 7.5,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 63,
+        "path": "output_reality/3_elements/composite_character_3_clothing_2_style_1.png",
+        "method": "composite",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Japanese Film Color Style): film overlay, film grain"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 33.965
+        },
+        "gpt4v": {
+            "composition": 7.5,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 64,
+        "path": "output_reality/2_elements/merge_character_1_background_2.png",
+        "method": "merge",
+        "number of elements": 2,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. background (Forest Background): slg, river, forest"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 3.0
+        },
+        "clipscore": {
+            "score": 26.6335
+        },
+        "gpt4v": {
+            "composition": 8.25,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 65,
+        "path": "output_reality/2_elements/switch_character_1_background_2.png",
+        "method": "switch",
+        "number of elements": 2,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. background (Forest Background): slg, river, forest"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 30.5736
+        },
+        "gpt4v": {
+            "composition": 7.0,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 66,
+        "path": "output_reality/2_elements/composite_character_1_background_2.png",
+        "method": "composite",
+        "number of elements": 2,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. background (Forest Background): slg, river, forest"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 30.1499
+        },
+        "gpt4v": {
+            "composition": 7.0,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 67,
+        "path": "output_reality/4_elements/merge_character_2_clothing_2_style_1_background_1.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Japanese Film Color Style): film overlay, film grain",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 37.2627
+        },
+        "gpt4v": {
+            "composition": 7.0,
+            "image": 9.125
+        }
+    },
+    {
+        "index": 68,
+        "path": "output_reality/4_elements/switch_character_2_clothing_2_style_1_background_1.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Japanese Film Color Style): film overlay, film grain",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 38.5944
+        },
+        "gpt4v": {
+            "composition": 7.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 69,
+        "path": "output_reality/4_elements/composite_character_2_clothing_2_style_1_background_1.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Japanese Film Color Style): film overlay, film grain",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 35.552
+        },
+        "gpt4v": {
+            "composition": 6.75,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 70,
+        "path": "output_reality/4_elements/merge_character_1_clothing_1_style_2_object_2.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 2.5
+        },
+        "clipscore": {
+            "score": 29.8164
+        },
+        "gpt4v": {
+            "composition": 7.875,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 71,
+        "path": "output_reality/4_elements/switch_character_1_clothing_1_style_2_object_2.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 37.9293
+        },
+        "gpt4v": {
+            "composition": 6.0,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 72,
+        "path": "output_reality/4_elements/composite_character_1_clothing_1_style_2_object_2.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 36.2537
+        },
+        "gpt4v": {
+            "composition": 5.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 73,
+        "path": "output_reality/4_elements/merge_character_1_clothing_1_background_1_object_1.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "4. object (Umbrella): transparent umbrella"
+        ],
+        "human_1": {
+            "composition": 2.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 2.0,
+            "image": 2.5
+        },
+        "clipscore": {
+            "score": 36.3731
+        },
+        "gpt4v": {
+            "composition": 2.25,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 74,
+        "path": "output_reality/4_elements/switch_character_1_clothing_1_background_1_object_1.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "4. object (Umbrella): transparent umbrella"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 39.3619
+        },
+        "gpt4v": {
+            "composition": 9.0,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 75,
+        "path": "output_reality/4_elements/composite_character_1_clothing_1_background_1_object_1.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "4. object (Umbrella): transparent umbrella"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 36.4537
+        },
+        "gpt4v": {
+            "composition": 5.0,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 76,
+        "path": "output_reality/4_elements/merge_character_2_clothing_1_style_2_background_2.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Forest Background): slg, river, forest"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 2.0
+        },
+        "avg_human_score": {
+            "composition": 3.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 35.4899
+        },
+        "gpt4v": {
+            "composition": 9.0,
+            "image": 9.375
+        }
+    },
+    {
+        "index": 77,
+        "path": "output_reality/4_elements/switch_character_2_clothing_1_style_2_background_2.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Forest Background): slg, river, forest"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 38.2703
+        },
+        "gpt4v": {
+            "composition": 9.5,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 78,
+        "path": "output_reality/4_elements/composite_character_2_clothing_1_style_2_background_2.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Forest Background): slg, river, forest"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 36.787
+        },
+        "gpt4v": {
+            "composition": 8.5,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 79,
+        "path": "output_reality/4_elements/merge_character_3_clothing_1_style_2_object_2.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 2.5
+        },
+        "clipscore": {
+            "score": 31.6602
+        },
+        "gpt4v": {
+            "composition": 6.375,
+            "image": 9.625
+        }
+    },
+    {
+        "index": 80,
+        "path": "output_reality/4_elements/switch_character_3_clothing_1_style_2_object_2.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 36.4865
+        },
+        "gpt4v": {
+            "composition": 8.0,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 81,
+        "path": "output_reality/4_elements/composite_character_3_clothing_1_style_2_object_2.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 34.3751
+        },
+        "gpt4v": {
+            "composition": 6.5,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 82,
+        "path": "output_reality/3_elements/merge_character_1_clothing_2_style_2.png",
+        "method": "merge",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Bright Style): bright lighting"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 34.7694
+        },
+        "gpt4v": {
+            "composition": 9.0,
+            "image": 9.625
+        }
+    },
+    {
+        "index": 83,
+        "path": "output_reality/3_elements/switch_character_1_clothing_2_style_2.png",
+        "method": "switch",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Bright Style): bright lighting"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 37.2876
+        },
+        "gpt4v": {
+            "composition": 8.0,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 84,
+        "path": "output_reality/3_elements/composite_character_1_clothing_2_style_2.png",
+        "method": "composite",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Bright Style): bright lighting"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 35.6261
+        },
+        "gpt4v": {
+            "composition": 8.5,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 85,
+        "path": "output_reality/3_elements/merge_character_2_clothing_1_background_1.png",
+        "method": "merge",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 36.0037
+        },
+        "gpt4v": {
+            "composition": 9.0,
+            "image": 9.75
+        }
+    },
+    {
+        "index": 86,
+        "path": "output_reality/3_elements/switch_character_2_clothing_1_background_1.png",
+        "method": "switch",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 36.511
+        },
+        "gpt4v": {
+            "composition": 9.0,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 87,
+        "path": "output_reality/3_elements/composite_character_2_clothing_1_background_1.png",
+        "method": "composite",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 39.224
+        },
+        "gpt4v": {
+            "composition": 5.0,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 88,
+        "path": "output_reality/5_elements/merge_character_3_clothing_1_style_2_background_1_object_2.png",
+        "method": "merge",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "5. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 2.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 3.0
+        },
+        "clipscore": {
+            "score": 28.4802
+        },
+        "gpt4v": {
+            "composition": 1.75,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 89,
+        "path": "output_reality/5_elements/switch_character_3_clothing_1_style_2_background_1_object_2.png",
+        "method": "switch",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "5. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 35.9777
+        },
+        "gpt4v": {
+            "composition": 7.0,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 90,
+        "path": "output_reality/5_elements/composite_character_3_clothing_1_style_2_background_1_object_2.png",
+        "method": "composite",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "5. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 36.1203
+        },
+        "gpt4v": {
+            "composition": 6.5,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 91,
+        "path": "output_reality/3_elements/merge_character_1_clothing_2_background_1.png",
+        "method": "merge",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 37.029
+        },
+        "gpt4v": {
+            "composition": 7.75,
+            "image": 9.375
+        }
+    },
+    {
+        "index": 92,
+        "path": "output_reality/3_elements/switch_character_1_clothing_2_background_1.png",
+        "method": "switch",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 38.7682
+        },
+        "gpt4v": {
+            "composition": 9.0,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 93,
+        "path": "output_reality/3_elements/composite_character_1_clothing_2_background_1.png",
+        "method": "composite",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 37.642
+        },
+        "gpt4v": {
+            "composition": 8.75,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 94,
+        "path": "output_reality/3_elements/merge_character_2_clothing_2_object_2.png",
+        "method": "merge",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 37.2169
+        },
+        "gpt4v": {
+            "composition": 8.875,
+            "image": 9.875
+        }
+    },
+    {
+        "index": 95,
+        "path": "output_reality/3_elements/switch_character_2_clothing_2_object_2.png",
+        "method": "switch",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 36.5079
+        },
+        "gpt4v": {
+            "composition": 7.75,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 96,
+        "path": "output_reality/3_elements/composite_character_2_clothing_2_object_2.png",
+        "method": "composite",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 38.2253
+        },
+        "gpt4v": {
+            "composition": 8.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 97,
+        "path": "output_reality/3_elements/merge_character_1_background_1_object_2.png",
+        "method": "merge",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "3. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 30.5479
+        },
+        "gpt4v": {
+            "composition": 8.625,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 98,
+        "path": "output_reality/3_elements/switch_character_1_background_1_object_2.png",
+        "method": "switch",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "3. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 33.8878
+        },
+        "gpt4v": {
+            "composition": 8.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 99,
+        "path": "output_reality/3_elements/composite_character_1_background_1_object_2.png",
+        "method": "composite",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "3. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 31.293
+        },
+        "gpt4v": {
+            "composition": 6.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 100,
+        "path": "output_reality/5_elements/merge_character_3_clothing_1_style_1_background_2_object_2.png",
+        "method": "merge",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Japanese Film Color Style): film overlay, film grain",
+            "4. background (Forest Background): slg, river, forest",
+            "5. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 2.0
+        },
+        "clipscore": {
+            "score": 29.54
+        },
+        "gpt4v": {
+            "composition": 4.125,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 101,
+        "path": "output_reality/5_elements/switch_character_3_clothing_1_style_1_background_2_object_2.png",
+        "method": "switch",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Japanese Film Color Style): film overlay, film grain",
+            "4. background (Forest Background): slg, river, forest",
+            "5. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 30.1944
+        },
+        "gpt4v": {
+            "composition": 5.0,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 102,
+        "path": "output_reality/5_elements/composite_character_3_clothing_1_style_1_background_2_object_2.png",
+        "method": "composite",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. clothing (Thai University Uniform): mahalaiuniform, white shirt short sleeves, black pencil skirt",
+            "3. style (Japanese Film Color Style): film overlay, film grain",
+            "4. background (Forest Background): slg, river, forest",
+            "5. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 30.875
+        },
+        "gpt4v": {
+            "composition": 4.75,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 103,
+        "path": "output_reality/3_elements/merge_character_1_style_1_background_1.png",
+        "method": "merge",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. style (Japanese Film Color Style): film overlay, film grain",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 29.2703
+        },
+        "gpt4v": {
+            "composition": 6.875,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 104,
+        "path": "output_reality/3_elements/switch_character_1_style_1_background_1.png",
+        "method": "switch",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. style (Japanese Film Color Style): film overlay, film grain",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 31.1808
+        },
+        "gpt4v": {
+            "composition": 6.0,
+            "image": 9.0
+        }
+    },
+    {
+        "index": 105,
+        "path": "output_reality/3_elements/composite_character_1_style_1_background_1.png",
+        "method": "composite",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. style (Japanese Film Color Style): film overlay, film grain",
+            "3. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 31.265
+        },
+        "gpt4v": {
+            "composition": 6.0,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 106,
+        "path": "output_reality/5_elements/merge_character_1_clothing_2_style_2_background_1_object_2.png",
+        "method": "merge",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "5. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 2.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 2.0
+        },
+        "avg_human_score": {
+            "composition": 2.0,
+            "image": 2.5
+        },
+        "clipscore": {
+            "score": 35.6569
+        },
+        "gpt4v": {
+            "composition": 7.5,
+            "image": 8.0
+        }
+    },
+    {
+        "index": 107,
+        "path": "output_reality/5_elements/switch_character_1_clothing_2_style_2_background_1_object_2.png",
+        "method": "switch",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "5. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 3.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 38.4301
+        },
+        "gpt4v": {
+            "composition": 5.75,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 108,
+        "path": "output_reality/5_elements/composite_character_1_clothing_2_style_2_background_1_object_2.png",
+        "method": "composite",
+        "number of elements": 5,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf",
+            "5. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 34.751
+        },
+        "gpt4v": {
+            "composition": 6.0,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 109,
+        "path": "output_reality/4_elements/merge_character_1_style_2_background_2_object_2.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. style (Bright Style): bright lighting",
+            "3. background (Forest Background): slg, river, forest",
+            "4. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 3.0,
+            "image": 3.0
+        },
+        "human_2": {
+            "composition": 2.0,
+            "image": 1.0
+        },
+        "avg_human_score": {
+            "composition": 2.5,
+            "image": 2.0
+        },
+        "clipscore": {
+            "score": 25.1638
+        },
+        "gpt4v": {
+            "composition": 6.625,
+            "image": 7.75
+        }
+    },
+    {
+        "index": 110,
+        "path": "output_reality/4_elements/switch_character_1_style_2_background_2_object_2.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. style (Bright Style): bright lighting",
+            "3. background (Forest Background): slg, river, forest",
+            "4. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 28.4197
+        },
+        "gpt4v": {
+            "composition": 8.25,
+            "image": 9.25
+        }
+    },
+    {
+        "index": 111,
+        "path": "output_reality/4_elements/composite_character_1_style_2_background_2_object_2.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. style (Bright Style): bright lighting",
+            "3. background (Forest Background): slg, river, forest",
+            "4. object (Bubble Gum): blow bubble gum"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 4.5,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 26.9113
+        },
+        "gpt4v": {
+            "composition": 8.75,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 112,
+        "path": "output_reality/4_elements/merge_character_2_clothing_2_style_2_background_1.png",
+        "method": "merge",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 36.9875
+        },
+        "gpt4v": {
+            "composition": 9.0,
+            "image": 9.625
+        }
+    },
+    {
+        "index": 113,
+        "path": "output_reality/4_elements/switch_character_2_clothing_2_style_2_background_1.png",
+        "method": "switch",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 38.9775
+        },
+        "gpt4v": {
+            "composition": 8.5,
+            "image": 9.5
+        }
+    },
+    {
+        "index": 114,
+        "path": "output_reality/4_elements/composite_character_2_clothing_2_style_2_background_1.png",
+        "method": "composite",
+        "number of elements": 4,
+        "prompt": [
+            "1. character (Scarlett Johansson): scarlett, short red hair, blue eyes",
+            "2. clothing (School Dress): school uniform, white shirt, red tie, blue pleated microskirt",
+            "3. style (Bright Style): bright lighting",
+            "4. background (Library Bookshelf Background): lib_bg, library bookshelf"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 40.0983
+        },
+        "gpt4v": {
+            "composition": 9.0,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 115,
+        "path": "output_reality/3_elements/merge_character_1_style_2_background_2.png",
+        "method": "merge",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. style (Bright Style): bright lighting",
+            "3. background (Forest Background): slg, river, forest"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 3.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 3.5
+        },
+        "clipscore": {
+            "score": 26.566
+        },
+        "gpt4v": {
+            "composition": 7.75,
+            "image": 9.875
+        }
+    },
+    {
+        "index": 116,
+        "path": "output_reality/3_elements/switch_character_1_style_2_background_2.png",
+        "method": "switch",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. style (Bright Style): bright lighting",
+            "3. background (Forest Background): slg, river, forest"
+        ],
+        "human_1": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 30.3636
+        },
+        "gpt4v": {
+            "composition": 4.5,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 117,
+        "path": "output_reality/3_elements/composite_character_1_style_2_background_2.png",
+        "method": "composite",
+        "number of elements": 3,
+        "prompt": [
+            "1. character (IU (Lee Ji Eun, Korean singer)): iu1, long straight black hair, hazel eyes, diamond stud earrings",
+            "2. style (Bright Style): bright lighting",
+            "3. background (Forest Background): slg, river, forest"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 3.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 4.0,
+            "image": 4.5
+        },
+        "clipscore": {
+            "score": 27.9653
+        },
+        "gpt4v": {
+            "composition": 7.5,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 118,
+        "path": "output_reality/2_elements/merge_character_3_style_1.png",
+        "method": "merge",
+        "number of elements": 2,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. style (Japanese Film Color Style): film overlay, film grain"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 4.0
+        },
+        "clipscore": {
+            "score": 27.6391
+        },
+        "gpt4v": {
+            "composition": 6.5,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 119,
+        "path": "output_reality/2_elements/switch_character_3_style_1.png",
+        "method": "switch",
+        "number of elements": 2,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. style (Japanese Film Color Style): film overlay, film grain"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 25.042
+        },
+        "gpt4v": {
+            "composition": 6.5,
+            "image": 10.0
+        }
+    },
+    {
+        "index": 120,
+        "path": "output_reality/2_elements/composite_character_3_style_1.png",
+        "method": "composite",
+        "number of elements": 2,
+        "prompt": [
+            "1. character (The Rock (Dwayne Johnson)): th3r0ck with no hair, muscular male, serious look on his face",
+            "2. style (Japanese Film Color Style): film overlay, film grain"
+        ],
+        "human_1": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "human_2": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "avg_human_score": {
+            "composition": 5.0,
+            "image": 5.0
+        },
+        "clipscore": {
+            "score": 24.2756
+        },
+        "gpt4v": {
+            "composition": 7.0,
+            "image": 10.0
+        }
+    }
+]

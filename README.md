@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 ### Downloading Pre-trained LoRAs
-Our **ComposLoRA** testbed collects 22 pre-trained LoRAs, spanning characters, clothing, styles, backgrounds, and objects. Download `ComposLoRA.zip` from [this link](https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing), put it in the `models` folder, and unzip it.
+Our **ComposLoRA** testbed collects 22 pre-trained LoRAs, spanning characters, clothing, styles, backgrounds, and objects. Download `ComposLoRA.zip` from [this link](https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing), put it in the [models](./models) folder, and unzip it.
 
 ## 🖼️ Image Generation with Multi-LoRA Composition
 
@@ -157,6 +157,8 @@ python evaluate.py \
 
 Modify `eval.sh` for comparative evaluation under different conditions. Note the position bias of GPT-4V as mentioned in our paper, making it essential to input images in both orders and average the scores for a fair final assessment.
 
+## Human Evaluation
+We also conduct human evaluations on a subset of generated images to assess composition and image quality from a human perspective. These evaluations offer additional insights into the performance of our Multi-LoRA Composition methods and metrics. For detailed information on the evaluation process and results, please visit the [human_eval](./human_eval) folder.
 
 
 
