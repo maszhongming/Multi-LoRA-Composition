@@ -1,8 +1,8 @@
 # <img src="images/tangram.png" alt="title" width="4%"> Multi-LoRA Composition for Image Generation
 <p align="center">
-  <a href="https://maszhongming.github.io/Multi-LoRA-Composition/"><img src="https://img.shields.io/badge/🌐-Website-red" height="40"></a>
-  <a href="https://github.com/maszhongming/Multi-LoRA-Composition"><img src="https://img.shields.io/badge/📝-Paper-blue" height="40"></a>
-  <a href="https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing" ><img src="https://img.shields.io/badge/🎨-ComposLoRA-green" height="40"></a>
+  <a href="https://maszhongming.github.io/Multi-LoRA-Composition/"><img src="https://img.shields.io/badge/🌐-Website-red" height="30"></a>
+  <a href="https://github.com/maszhongming/Multi-LoRA-Composition"><img src="https://img.shields.io/badge/📝-Paper-blue" height="30"></a>
+  <a href="https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing" ><img src="https://img.shields.io/badge/🎨-ComposLoRA-green" height="30"></a>
 </p>
 
 🖋 **Authors:** [Ming Zhong](https://maszhongming.github.io/), [Yelong Shen](https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en), [Shuohang Wang](https://www.microsoft.com/en-us/research/people/shuowa/), [Yadong Lu](https://adamlu123.github.io/), [Yizhu Jiao](https://yzjiao.github.io/), [Siru Ouyang](https://ozyyshr.github.io/), [Donghan Yu](https://plusross.github.io/), [Jiawei Han](https://hanj.cs.illinois.edu/), [Weizhu Chen](https://www.microsoft.com/en-us/research/people/wzchen/)
