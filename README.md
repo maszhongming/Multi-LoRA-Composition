@@ -158,7 +158,7 @@ python evaluate.py \
 Modify `eval.sh` for comparative evaluation under different conditions. Note the position bias of GPT-4V as mentioned in our paper, making it essential to input images in both orders and average the scores for a fair final assessment.
 
 ## Human Evaluation
-We also conduct human evaluations on a subset of generated images to assess composition and image quality from a human perspective. These evaluations offer additional insights into the performance of our Multi-LoRA Composition methods and metrics. For detailed information on the evaluation process and results, please visit the [human_eval](./human_eval) folder.
+We also conduct human evaluations on 120 generated images to assess composition and image quality from a human perspective. These evaluations offer additional insights into the performance of our Multi-LoRA Composition methods and metrics. For detailed information on the evaluation process and results, please visit the [human_eval](./human_eval) folder.
 
 
 
