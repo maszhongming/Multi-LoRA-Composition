@@ -255,7 +255,7 @@
     <!-- Results. -->
     <div class="columns is-centered">
       <div class="column has-text-centered">
-        <h2 class="title is-3">Multi-LoRA Composition through a Decoding-Centric Perspective</h2>
+        <h2 class="title is-3">Methods of Multi-LoRA Composition</h2>
         <p align="center">
         <img src="./static/images/method.png" class="center">
         </p>
@@ -265,7 +265,7 @@
               <ul>
               <li>Prevalent approach to integrating multiple elements in a unified way in an image.</li> 
               <li>It is realized by linearly combining multiple LoRAs to synthesize a unified LoRA, subsequently plugged into the text-to-image model.</li>
-              <li>LoAR Merge completely overlooks the interaction with the diffusion model during the generative process, resulting in the deformation of the hamburger and fingers in the Figure</li>
+              <li>LoAR Merge completely overlooks the interaction with the diffusion model during the generative process, resulting in the deformation of the hamburger and fingers in the Figure.</li>
               </ul>
             </li>
             <li><strong>LoRA Switch (LoRA-S):</strong>
@@ -288,6 +288,27 @@
     </div>
   </div>
 </section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Results. -->
+    <div class="columns is-centered">
+      <div class="column has-text-centered">
+        <h2 class="title is-3">GPT-4V-based Evaluator</h2>
+        <p align="center">
+        <img src="./static/images/gpt4v.png" class="center">
+        </p>
+        <div class="content has-text-justified">
+          <ul>
+            <li>While existing metrics can calculate the alignment between text and images, they fall short in assessing the intricacies of specific elements within an image and the quality of their composition.</li>
+            <li>We employ a comparative evaluation method, utilizing GPT-4V to rate generated images across two dimensions: composition quality and image quality.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <section class="section">
   <div class="container is-max-desktop">
