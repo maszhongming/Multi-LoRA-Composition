@@ -1,7 +1,7 @@
 # <img src="images/tangram.png" alt="title" width="4%"> Multi-LoRA Composition for Image Generation
 <p align="center">
-  <a href="https://maszhongming.github.io/Multi-LoRA-Composition/"><img src="https://img.shields.io/badge/🌐-Website-red" style="width:20%;"></a>
-  <a href="https://github.com/maszhongming/Multi-LoRA-Composition"><img src="https://img.shields.io/badge/📝-Paper-blue" style="width:20%;"></a>
+  <a href="https://maszhongming.github.io/Multi-LoRA-Composition/"><img src="https://img.shields.io/badge/🌐-Website-red" style="width:15%;"></a>
+  <a href="https://github.com/maszhongming/Multi-LoRA-Composition"><img src="https://img.shields.io/badge/📝-Paper-blue" style="width:10%;"></a>
   <a href="https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing" ><img src="https://img.shields.io/badge/🎨-ComposLoRA-green" style="width:20%;"></a>
 </p>
 
