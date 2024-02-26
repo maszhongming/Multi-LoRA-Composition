@@ -165,5 +165,14 @@ Modify `eval.sh` for comparative evaluation under different conditions. Note the
 ## Human Evaluation
 We also conduct human evaluations on 120 generated images to assess composition and image quality from a human perspective. These evaluations offer additional insights into the performance of our Multi-LoRA Composition methods and metrics. For detailed information on the evaluation process and results, please visit the [human_eval](./human_eval) folder.
 
-
+## 📚 Citation
+If you find this work useful, please kindly cite our paper:
+```
+@article{zhong2024multi,
+    title={Multi-LoRA Composition for Image Generation},
+    author={Zhong, Ming and Shen, Yelong and Wang, Shuohang and Lu, Yadong and Jiao, Yizhu and Ouyang, Siru and Yu, Donghan and Han, Jiawei and Chen, Weizhu},
+    journal={arXiv preprint},
+    year={2024}
+}
+```
 
