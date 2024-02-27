@@ -1,7 +1,7 @@
 # <img src="images/tangram.png" alt="title" width="4%"> Multi-LoRA Composition for Image Generation
 <p align="center">
   <a href="https://maszhongming.github.io/Multi-LoRA-Composition/"><img src="https://img.shields.io/badge/🌐-Website-red" height="25"></a>
-  <a href="https://github.com/maszhongming/Multi-LoRA-Composition"><img src="https://img.shields.io/badge/📝-Paper-blue" height="25"></a>
+  <a href="https://arxiv.org/abs/2402.16843"><img src="https://img.shields.io/badge/📝-Paper-blue" height="25"></a>
   <a href="https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing" ><img src="https://img.shields.io/badge/🎨-ComposLoRA-green" height="25"></a>
 </p>
 
@@ -171,7 +171,7 @@ If you find this work useful, please kindly cite our paper:
 @article{zhong2024multi,
     title={Multi-LoRA Composition for Image Generation},
     author={Zhong, Ming and Shen, Yelong and Wang, Shuohang and Lu, Yadong and Jiao, Yizhu and Ouyang, Siru and Yu, Donghan and Han, Jiawei and Chen, Weizhu},
-    journal={arXiv preprint},
+    journal={arXiv preprint arXiv:2402.16843},
     year={2024}
 }
 ```
