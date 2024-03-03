@@ -3,7 +3,7 @@
   <a href="https://maszhongming.github.io/Multi-LoRA-Composition/"><img src="https://img.shields.io/badge/🌐-Website-red" height="25"></a>
   <a href="https://arxiv.org/abs/2402.16843"><img src="https://img.shields.io/badge/📝-Paper-blue" height="25"></a>
   <a href="https://drive.google.com/file/d/1SuwRgV1LtEud8dfjftnw-zxBMgzSCwIT/view?usp=sharing" ><img src="https://img.shields.io/badge/🎨-ComposLoRA-green" height="25"></a>
-  <a href="https://https://colab.research.google.com/drive/1eSTj6qGOtSY5NaazwwN3meXOzEZxgaZq"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+  <a href="https://https://colab.research.google.com/drive/1eSTj6qGOtSY5NaazwwN3meXOzEZxgaZq?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" height="25"></a>
 </p>
 
 🖋 **Authors:** [Ming Zhong](https://maszhongming.github.io/), [Yelong Shen](https://scholar.google.com/citations?user=S6OFEFEAAAAJ&hl=en), [Shuohang Wang](https://www.microsoft.com/en-us/research/people/shuowa/), [Yadong Lu](https://adamlu123.github.io/), [Yizhu Jiao](https://yzjiao.github.io/), [Siru Ouyang](https://ozyyshr.github.io/), [Donghan Yu](https://plusross.github.io/), [Jiawei Han](https://hanj.cs.illinois.edu/), [Weizhu Chen](https://www.microsoft.com/en-us/research/people/wzchen/)
