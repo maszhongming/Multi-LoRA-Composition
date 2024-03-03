@@ -88,7 +88,7 @@ prompt = "RAW photo, subject, 8k uhd, dslr, high quality, Fujifilm XT3, half-len
 negative_prompt = "extra heads, nsfw, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
 
 # Generate and save the image
-generator = torch.maunal_seed(11)
+generator = torch.manual_seed(11)
 image = pipeline(
     prompt=prompt, 
     negative_prompt=negative_prompt,
